@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "766390661351",
+    "firebase_url": "https://fir-geofencing.firebaseio.com",
+    "project_id": "fir-geofencing",
+    "storage_bucket": "fir-geofencing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766390661351:android:619bad1f05988aa444f242",
+        "android_client_info": {
+          "package_name": "com.example.firebasegeofencing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766390661351-3gjti3hvpf32r1nbrlrfal5rbg2329hg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasegeofencing",
+            "certificate_hash": "cc0bd01ce8910cae7204c5a0075f99b2ea6a590f"
+          }
+        },
+        {
+          "client_id": "766390661351-5erf3usc22grl2pr7ciq1md2bp5bhrve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5c8kxtEHxDDYGss2jKGHFG2SsJoDO7T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766390661351-5erf3usc22grl2pr7ciq1md2bp5bhrve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
