@@ -260,20 +260,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public void onKeyEntered(String key, GeoLocation location) {
-        Toast.makeText(this,"You entered the bus stop area!!!",Toast.LENGTH_LONG).show();
-        //sendNotification("Wilson",String.format("%s entered the bus stop area",key));
+        //Toast.makeText(this,"You entered the bus stop area",Toast.LENGTH_LONG).show();
+        sendNotification("Wilson",String.format("%s entered the bus stop area",key));
     }
 
     @Override
     public void onKeyExited(String key) {
-        Toast.makeText(this,"You exited the bus stop area!!!",Toast.LENGTH_LONG).show();
-        //sendNotification("Wilson",String.format("%s exited the bus stop area",key));
+        sendNotification("Wilson",String.format("%s exited the bus stop area",key));
     }
 
     @Override
     public void onKeyMoved(String key, GeoLocation location) {
-        Toast.makeText(this,"You move within the bus stop area!!!",Toast.LENGTH_LONG).show();
-        //sendNotification("Wilson",String.format("%s move within the bus stop area",key));
+        sendNotification("Wilson",String.format("%s move within the bus stop area",key));
     }
 
     @Override
